@@ -1,94 +1,107 @@
 <html>
 <head>
-	<title></title>
 <style>
 * {
     box-sizing: border-box;
 }
-body {
-    margin: 0;
+body{
+    margin:0;
 }
-div {
+div{
     width: 100%;
     height: 100%;
     float: left;
 }
-.height65 {
-    height: 65%;
+.height75{
+    height:75%;
+    border: 10px solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
 }
-.height35 {
-    height: 35%
+.height25{
+    height: 25%;
+    border: 10px solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
-.red {
+
+.leftwhite{
+    width: 20%;
+}
+.red{
     background-color: red;
 }
-.blue {
+.blue{
     background-color: blue;
-    border: 10px black solid;
 }
-.widthborder {
-    border: 10px black solid;
+.width80{
+    width: 80%;
+    border: 10px solid;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
-.width80 {
-    width: 80%
+
+.top{
+    height: 45%;
+    border: 10px solid;
+    border-left: 0;
+    border-top: 0;
 }
-.width20 {
-    width: 20%
+.bottom{
+    height: 55%;
+    border: 10px solid;
+    border-left: 0;
+    border-bottom: 0;
 }
-.sqyellow {
-    width: 110px;
-    height: 130px;
-    border: 10px solid black;
-    margin: 56px 1050px;
-    background: yellow;
-    position: absolute;
+.bottomblue{
+    width: 20%;
+    border: 10px solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    
 }
-.sqwhite {
-    width: 110px;
-    height: 120px;
-    border: 10px solid black;
-    margin: -9px 1050px;
-    background: white;
-    position: absolute;
-}
-.sqwhitebig {
-    width: 900px;
-    height: 195px;
-    border: 10px solid black;
-    margin: -10px 227px;
+.bottomwh1{
+    width: 72%;
+    border: 10px solid;
+    border-top: 0;
+    border-bottom: 0;
     background-color: white;
 }
-.leftwhitesq {
-    width: 245px;
-    height: 567px;
-    border: 10px solid black;
-    margin: -764px 0px;
+.bottomwh2{
+    width: 8%;
+    height: 50%;
+    border: 10px solid;
+    border-right: 0;
+    border-top: 0;
     background-color: white;
 }
-.whitesq1 {
-    width: 245px;
-    height: 234px;
-    border: 10px solid black;
-    margin: -9px -8px;
-    background: white;
+.bottomyw{
+    width: 8%;
+    height: 50%;
+    border: 10px solid;
+    border-right: 0;
+    background-color: yellow;
+    border-bottom: 0;
 }
 </style>
 </head>
 <body>
-	<div class="height65"></div>
-		<div class="width20">
-			<div class="whiteborder1"></div>
-			<div class="whiteborder2"></div>
-		</div>
-	<div class="width80 red widthborder"></div>
-	<div class="height35 blue">
-		<div class="sqyellow"></div>
-		<div class="sqwhite"></div>
-		<div class="sqwhitebig"></div>
-	</div>
-	<div class="leftwhitesq">
-		<div class="whitesq1"></div>
-	</div>
-
+    <div class="height75">
+        <div class="leftwhite">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+        <div class="width80 red"></div>
+    </div>
+    <div class="height25 blue">
+        <div class="bottomblue"></div>
+        <div class="bottomwh1"></div>
+        <div class="bottomwh2"></div>
+        <div class="bottomyw"></div>
+    </div>
 </body>
 </html>
