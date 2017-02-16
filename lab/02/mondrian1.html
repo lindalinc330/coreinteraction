@@ -45,13 +45,13 @@ div{
 }
 
 .top{
-    height: 45%;
+    height: 40%;
     border: 10px solid;
     border-left: 0;
     border-top: 0;
 }
 .bottom{
-    height: 55%;
+    height: 60%;
     border: 10px solid;
     border-left: 0;
     border-bottom: 0;
@@ -65,24 +65,35 @@ div{
     
 }
 .bottomwh1{
-    width: 72%;
+    width: 80%;
     border: 10px solid;
     border-top: 0;
     border-bottom: 0;
     background-color: white;
 }
-.bottomwh2{
-    width: 8%;
-    height: 50%;
+.sqinsidewh1{
+    width:92%;
+    border:10px solid;
     border: 10px solid;
+    border-top: 0;
+    border-bottom: 0;
+
+}
+.sqinsidewh2{
+    width:8%;
+    border: 10px solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+.bottomwh2{
+    height: 50%;
     border-right: 0;
     border-top: 0;
+    border-bottom: 10px solid;
     background-color: white;
 }
 .bottomyw{
-    width: 8%;
     height: 50%;
-    border: 10px solid;
     border-right: 0;
     background-color: yellow;
     border-bottom: 0;
@@ -99,9 +110,13 @@ div{
     </div>
     <div class="height25 blue">
         <div class="bottomblue"></div>
-        <div class="bottomwh1"></div>
-        <div class="bottomwh2"></div>
-        <div class="bottomyw"></div>
-    </div>
+            <div class="bottomwh1">
+                <div class="sqinsidewh1"></div>
+                <div class="sqinsidewh2">
+                    <div class="bottomwh2"></div>
+                    <div class="bottomyw"></div>
+                </div>
+            </div>
+     </div>
 </body>
 </html>
