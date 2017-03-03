@@ -6,7 +6,7 @@ body{ background-color:#ccc; }
   height: 20em;
   padding-bottom: 31%;
   position: relative;
-  width: 33em;
+  width: 45em;
 }
 
 .clock.simple:after {
