@@ -1,0 +1,129 @@
+
+.container-1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-gray{
+	background-color:#BFCAD5;
+	width:387px;
+	height:562px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.container-1_1{
+	width:377px;
+	height:111px;
+	background-color:#BFCAD5;
+	margin-left: 66px;
+}
+.square1_1{
+	width:125px;
+	height:84px;
+	background-color: #F7E09D;
+	position: relative;
+	margin-top: -165px;
+	margin-left: 2px;
+	animation-name: yeah;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes yeah {
+    0%   {background-color:#F7E09D; left:0px; top:0px;}
+    25%  {background-color:yellow; left:125px; top:0px;}
+    50%  {background-color:blue; left:125px; top:168px;}
+    75%  {background-color:green; left:0px; top:168px;}
+    100% {background-color:#F7E09D; left:0px; top:0px;}
+}
+
+.square1_2{
+	width:127px;
+	height:84px;
+	background-color: #F7E09D;
+	position: relative;
+	margin-top: 84px;
+	animation-name: yeahh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes yeahh {
+    0%   {background-color:#F7E09D; left:0px; top:0px;}
+    25%  {background-color:yellow; left:127px; top:0px;}
+    50%  {background-color:blue; left:127px; top:168px;}
+    75%  {background-color:green; left:0px; top:168px;}
+    100% {background-color:#F7E09D; left:0px; top:0px;}
+}
+.square1_3{
+	width:125px;
+	height:84px;
+	background-color: #F7E09D;
+	position: relative;
+	margin-top: 83px;
+	margin-left: 2px;
+	animation-name: yeahhh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes yeahhh{
+	0%   {background-color:#F7E09D; left:0px; top:0px;}
+    25%  {background-color:yellow; left:125px; top:0px;}
+    50%  {background-color:blue; left:125px; top:166px;}
+    75%  {background-color:green; left:0px; top:166px;}
+    100% {background-color:#F7E09D; left:0px; top:0px;}
+	
+}
+.container-red{
+	background: #F44F23;
+    width: 400px;
+    height: 493px;
+    margin-right: 61px;
+    
+}
+
+.square2_1{
+	background: #FD792A;
+    width: 75px;
+    height: 84px;
+    position: relative;
+    margin-top: 26px;
+    animation-name: yeahmove;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+
+
+.square2_2{
+background: #FD792A;
+    width: 75px;
+    height: 84px;
+    position: relative;
+    margin-top: 84px;
+    animation-name: yeahmove;
+    animation-iteration-count: infinite;
+        animation-duration: 2s;
+
+   }
+  .square2_3{
+  	background: #FD792A;
+    width: 75px;
+    height: 84px;
+    position: relative;
+    margin-top: 83px;
+    animation-name: yeahmove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+@keyframes yeahmove{
+        0%   {left: 0px;}
+        50%  {left: 60px;}
+        100% {left: 0px;}
+    }
